@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.9"
+  },
+  "scripts": {
+    "build-css": "tailwindcss -i ./public/estilos.css -o css/style.css",
+    "watch": "tailwindcss -i ./public/estilos.css -o css/style.css --watch"
+  }
+}

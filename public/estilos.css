@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#boton {
+    position: absolute;
+    bottom: 3.5vh;
+    left: 100vh;
+    @apply w-6 h-3;
+}
+
+#mononoke {
+    position: absolute;
+    bottom: 2vh;
+    left: 0vh;
+    z-index: 1;
+    @apply w-24 h-24;
+}
+#mononoke2{
+    position: absolute;
+    bottom: 2vh;
+    left: 0vh;
+    z-index: 1;
+    @apply w-24 h-24 hidden;
+}
+
+#nube1 {
+    position: absolute;
+    bottom: 24vh;
+    left: 90vh;
+    @apply w-24 h-12;
+}
+#nube2 {
+    position: absolute;
+    bottom: 28vh;
+    left: 170vh;
+    @apply w-28 h-14;
+}
+#nube3 {
+    position: absolute;
+    bottom: 35vh;
+    left: 60vh;
+    @apply w-12 h-6;
+}
+#nube4 {
+    position: absolute;
+    bottom: 32vh;
+    left: 50vh;
+    @apply w-6 h-3;
+}
+#nube5 {
+    position: absolute;
+    bottom: 37vh;
+    left: 0vh;
+    @apply w-16 h-9;
+}
+#nube6 {
+    position: absolute;
+    bottom: 43vh;
+    left: 155vh;
+    @apply w-12 h-6;
+}
+
+#contenedor {
+    background-size: 207vh;
+}
